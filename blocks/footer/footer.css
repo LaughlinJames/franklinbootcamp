@@ -1,6 +1,7 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color: #202020;
+  color: #ebebeb;
   font-size: var(--body-font-size-s);
 }
 
@@ -12,3 +13,46 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+footer li{  
+  display: block;
+    float: left;
+    color: #bebebe;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+footer .icon-wknd-logo-light svg{
+  height: 150px;
+  width: 100px;
+}
+
+
+footer .cls-1{
+  height: 25px;
+  fill: #bebebe;
+}
+
+footer .logo{
+	flex: 1 !important;
+}
+footer .nav{
+	flex: 3 !important;
+}
+footer .social{
+	flex: 1 !important;
+  font-size: var(--body-font-size-xs);
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+footer .social span{
+  margin-left: 15px;
+}
+
+footer .footer p{
+  font-size: small;
+}
+
